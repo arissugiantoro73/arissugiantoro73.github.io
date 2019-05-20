@@ -11,7 +11,7 @@ body {
 /* End Body */
 /* Start Debug*/
 .bg-aquamarine{
-    background-color: #173F5F;
+    background-color: #0e2f44;
 }
 .bg-brown{
     background-color: rgb(134, 131, 131);
@@ -36,17 +36,18 @@ body {
 .menu-primer ul {
     background-color: black;
     border-radius: 4px;
-    box-shadow: rgba(244, 244, 253, 0.979);
+    padding: 1px;
+    box-shadow: 5px;
 }
 .menu-primer li{
-    border-right: 1px solid  rgba(244, 248, 245, 0.884);
+    border-right: 1px solid  white;
     display: inline-block;
 }
 .menu-primer a{
-    color: rgb(88, 35, 18);
-    font-size: 12px;
-    letter-spacing: 1px;
-    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    padding: 10px 30px;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -66,7 +67,7 @@ body {
 /* start hyperlink*/
 a:link,
 a:visited{ 
-    color: rgb(116, 116, 240);
+    color: #ffffff;
     text-decoration: none;
 }
 a:hover,
@@ -188,8 +189,8 @@ h6 {
 /* end testimonial*/
 
 .menu-skunder{
-    background-color: antiquewhite;
-    border-bottom: rgb(39, 30, 30);
+    background-color: 	#969595;
+    border-bottom: rgba(39, 30, 30, 0.726);
     border-top: 1px solid rgb(22, 18, 18);
     overflow: auto;
     padding: 10px 0; 
@@ -240,10 +241,11 @@ h6 {
   position: relative;
   display: inline-block;
   overflow: hidden;
+  text-align: center;
+  
   margin: 10px;
-  min-width: 10%;
-  max-width: 10%;
-  width: 50%;
+  min-width: 12%;
+  max-width: 12%;
   color: #ffffff;
   font-size: 16px;
   background-color: #000000;
